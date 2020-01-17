@@ -14,6 +14,8 @@ public class Drzava {
     public Drzava() {
     }
 
+    public String getNazivBezDodataka() {return naziv;}
+
     public int getId() {
         return id;
     }

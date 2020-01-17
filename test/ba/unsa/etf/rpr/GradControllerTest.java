@@ -88,7 +88,7 @@ class GradControllerTest {
 
         // Upisujemo validan broj stanovnika
         robot.clickOn("#fieldBrojStanovnika");
-        robot.press(KeyCode.CONTROL).press(KeyCode.A).release(KeyCode.A).release(KeyCode.CONTROL);
+        robot.press(KeyCode.COMMAND).press(KeyCode.A).release(KeyCode.A).release(KeyCode.COMMAND);
         robot.write("350000");
 
         // Klik na dugme ok
